@@ -29,9 +29,9 @@ const SingleBlog = ({ blog }) => {
               {category}
             </span>
           </p>
-          <a href="#" className="block mt-1">
+          <div className="block mt-1">
             <p className="text-xl font-semibold text-gray-900">{title}</p>
-          </a>
+          </div>
         </div>
         <div className="mt-6 flex items-center">
           <div
